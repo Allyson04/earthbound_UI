@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    color:#e7e6b3;
+    font-size: 1.2rem;
+    background: blue;
+}
+
+div.box {
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    background: rgb(72, 48, 80);
+    padding-left: 10px;
+
+    box-shadow:
+        0 0 0 4px rgb(232, 248, 88),
+        0 0 0 8px white,
+        0 0 0 12px rgb(232, 248, 88),
+        0 0 0 16px rgb(72, 48, 80);
+
+    border-radius: 5px;
+}
+
+p {
+    line-height: 3rem;
+    vertical-align: middle;
+}
+
+div#projects_gauge {
+    padding: 2rem;
+    /*   transform: scale(3); */
+    }
+
+    div#projects_gauge div {
+    width: 24px;
+    height: 18px;
+    position: absolute;
+    transform: scale(3);
+}
+
+div #gauge {
+    width: 9px;
+    height: 14px;
+    background: url("https://www.spriters-resource.com/resources/sheets/74/76763.png?updated=1460968571") -384px 113px;
+        margin: -2.5px;
+}
+}
