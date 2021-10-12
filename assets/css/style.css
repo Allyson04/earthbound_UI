@@ -31,18 +31,18 @@ p {
 div#projects_gauge {
     padding: 2rem;
     /*   transform: scale(3); */
-    }
+}
 
-    div#projects_gauge div {
+div#projects_gauge div {
     width: 24px;
     height: 18px;
     position: absolute;
     transform: scale(3);
 }
 
-div #gauge {
+div .gauge {
     width: 9px;
     height: 14px;
-    background: url("https://www.spriters-resource.com/resources/sheets/74/76763.png?updated=1460968571") -384px 113px;
-        margin: -2.5px;
+    background: url("../../earthbound_rolls.png") 0 0;
+    margin: -2.5px;
 }
